@@ -3,10 +3,10 @@ def fizzbuzz(num)
     "Fizz" # Go fizz
   end
   if num % 5 == 0
-    puts "Buzz"
+    "Buzz"
   end
   if num % 3 == 0 && num % 5 == 0
-    puts "FizzBuzz"
+    "FizzBuzz"
   end
-  puts nil
+  nil
 end
