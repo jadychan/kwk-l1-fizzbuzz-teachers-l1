@@ -1,6 +1,6 @@
 def fizzbuzz(num)
   if num % 3 == 0 # if the number int is divisible by 3
-    puts "Fizz" # Go fizz
+    "Fizz" # Go fizz
   end
   if num % 5 == 0
     puts "Buzz"
@@ -10,5 +10,3 @@ def fizzbuzz(num)
   end
   puts nil
 end
-
-fizzbuzz(3)
